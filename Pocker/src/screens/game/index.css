@@ -1,0 +1,37 @@
+.game-main {
+  position: relative;
+  height: 600px;
+}
+
+.img-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+.player-1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.player-2 {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.player-3 {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.player-4 {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
